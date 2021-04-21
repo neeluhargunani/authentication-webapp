@@ -1,38 +1,259 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    
+    background: #fffefe;
+    font-family: ' Ubuntu-Regular',sans-serif;
+    font-size: 14px;
   }
+  a{
+    text-decoration: none;
+    color:hsl(28, 7%, 46%)
+    
+  }
+  .border-bx{
+    box-sizing: border-box;
+  }
+  .card {
+   
+    border: 0px solid #6c757d0f!important;
+   }
+  .mrg-t{
+    margin-top:7em;
+  }
+   span{
+     display:inline-block;
+    
+     padding: 2px;
+     margin: 2px;
+   }
+   .container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    background-color: #fff;
+}
+.wrap-input100 {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 27px;
+  position: relative;
+  z-index: 1;
+}
+.input100 {
+  font-family: 'Ubuntu-Bold';
+  font-size: 15px;
+  color: #1b3815;
+  line-height: 1.2;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 55px;
+  background: #ebebeb;
+  border-radius: 27px;
+  padding: 0 16px;
+}
+.wrap-login100 {
+  width: 500px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px 0 rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 3px 20px 0 rgb(0 0 0 / 10%);
+  -o-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+  -ms-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+}
+   .limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+   .login100-form {
+  
+    position: relative;
+}
+   .login100-form-title {
+    font-family: JosefinSans-Bold;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #6f42c1;
+    padding-top: 50px;
+    padding-bottom: 39px;
+}
+.validate-input {
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.p-t-13 {
+  padding-top: 13px;
+}
+
+.p-b-23 {
+  padding-bottom: 23px;
+}
+.txt1 {
+  font-family: Ubuntu-Regular;
+  font-size: 15px;
+  color: #999;
+  line-height: 1.4;
+}
+.txt2 {
+  font-family: Ubuntu-Regular;
+  font-size: 15px;
+  color: #6f42c1;
+  line-height: 1.4;
+}
+.container-login100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.login100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #6f42c1;
+  border-radius: 25px;
+  font-family: Ubuntu-Bold;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s;
+}
+button {
+  outline: none!important;
+  border: none;
+  background: 0 0;
+}
+.flex-col-c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+}
+.p-b-9 {
+  padding-bottom: 9px;
+}
+.txt3 {
+  font-family: Ubuntu-Bold;
+  font-size: 15px;
+  color: #6f42c1;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.m-b-16 {
+  margin-bottom: 16px;
+}
+.p-b-40 {
+  padding-bottom: 40px;
+}
+.p-r-55 {
+  padding-right: 55px;
+}
+.p-l-55 {
+  padding-left: 55px;
+}
+.p-t-178 {
+  padding-top: 178px;
+}
+.p-t-170 {
+  padding-top: 104px;
+}
+a:hover {
+  text-decoration: none;
+  color: #1b3815;
+}
+.login100-form-btn:hover {
+  background-color: #1b3815;
+}
+.container-login100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;}
+
+  
+.bg-purple{
+  background-color: #6f42c1!important;
+  padding-top: 10px;
+  padding-bottom: 39px;
+  color:#fff;
+}
+.inner-card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px
+}
+.heart {
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #beb4aa;
+  border-radius: 50%;
+  background-color: #eee
 }
 
-.App-link {
-  color: #61dafb;
+.btn:focus {
+  color: #fff;
+  background-color: #025ce2;
+  border-color: #0257d5;
+  box-shadow: none
 }
+.bx-shadw{
+  background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 3px 20px 0 rgb(0 0 0 / 10%);
+    -o-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -ms-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
