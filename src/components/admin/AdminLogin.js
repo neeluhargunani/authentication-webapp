@@ -19,7 +19,7 @@ class AdminLogin extends Component {
                 if(resp.length>0)
                 {
                     localStorage.setItem('login',JSON.stringify(resp))
-                    console.warn(this.props.history.push('userlist'))
+                    console.warn(this.props.history.push('list'))
                 }
                 else{
                     alert("please check username and password")
